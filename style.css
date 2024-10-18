@@ -103,7 +103,7 @@
     width: 28rem;
     text-align: left;
   }
-  
+ 
   .menu-list img {
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
@@ -144,4 +144,18 @@
     color: var(--color-white);
     padding: 2rem;
     text-align: center;
+  }
+
+  @media screen and (min-width:375px) and (max-width:668px) { 
+    nav li {
+      display: inline;
+      margin: 0 .5rem;
+    }
+    
+    .menu-list > li {  
+      height: 24rem;
+      width: 15rem;
+      margin: 1em auto;
+    } 
+
   }
